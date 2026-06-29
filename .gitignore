@@ -1,0 +1,39 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Local environment and logs
+.env
+logs/
+**/logs/
+*.log
+
+# Qt / host software
+software/build-*/
+software/**/build-*/
+software/third_libs/
+*.pro.user
+*.pro.user.*
+*.dll
+
+# STM32 / Keil outputs
+firmware/MDK-ARM/Realtime485/
+firmware/MDK-ARM/Objects/
+firmware/MDK-ARM/Listings/
+firmware/MDK-ARM/*.uvguix.*
+firmware/**/*.o
+firmware/**/*.d
+firmware/**/*.crf
+firmware/**/*.axf
+firmware/**/*.hex
+firmware/**/*.map
+firmware/**/*.lnp
+firmware/**/*.dep
+firmware/**/*.iex
+firmware/**/*.htm
+firmware/**/*.build_log.htm
+firmware/**/*.lst

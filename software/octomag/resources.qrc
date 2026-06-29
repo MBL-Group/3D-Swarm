@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/">
+        <file>resources/camera.png</file>
+        <file>resources/play-fill.png</file>
+        <file>resources/stop-fill.png</file>
+        <file>resources/MBL_Logo.png</file>
+        <file>resources/University_of_Toronto_Logo_2.png</file>
+    </qresource>
+</RCC>
